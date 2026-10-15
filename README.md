@@ -1,25 +1,23 @@
-# PanenPlus 🌾
+# 🌾 PanenPlus: Agricultural E-Commerce Platform
 
-An end-to-end agriculture e-commerce mobile application built with Flutter and Dart, fully integrated with Firebase. PanenPlus aims to cut the middleman supply chain by enabling direct transactions between local farmers and consumers.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+## 📌 Overview
+
+**PanenPlus** is a comprehensive mobile e-commerce ecosystem designed to cut the middleman supply chain in the agricultural sector. Built with **Flutter** and **Dart**, this application enables local farmers to manage their digital storefronts and transact directly with consumers in a seamless, secure environment.
 
 <div align="center">
-  <img src="lib/assets/panenplus.png" alt="PanenPlus App Showcase" width="100%">
+  <img src="lib/assets/panenplus.png" alt="PanenPlus UI" width="100%">
 </div>
 
-## 🚀 Key Features
+## 🚀 Core Features & Architecture
 
-*   **Role-Based Access Control:** Secure authentication for buyers and sellers using Firebase Auth.
-*   **Real-time Marketplace:** Browse, search, and add agricultural products to the cart in real-time.
-*   **Seller Dashboard:** Comprehensive store management including product upload, stock tracking, and order status updates (Processed, Shipped, Completed).
-*   **Order & Payment Processing:** Full checkout flow calculating subtotals and shipping costs.
-*   **Interactive Chat & Notifications:** In-app push notifications and a direct buyer-seller communication system.
+*   **Role-Based Access Control:** Secure user authentication supporting distinct logic for Buyers and Sellers using **Firebase Auth**.
+*   **Real-time Marketplace & Cart Engine:** Dynamic product rendering, search filtering, and state-managed shopping cart operations.
+*   **Comprehensive Seller Dashboard:** A dedicated interface for farmers to perform CRUD operations on products, track inventory stock, and update order statuses (Processed, Shipped, Completed).
+*   **Checkout & Order Processing:** Automated subtotal calculations and shipping cost integrations.
+*   **In-App Communication:** Real-time push notifications and direct chat system between buyers and sellers via **Cloud Firestore**.
 
-## 🛠️ Tech Stack
-
-*   **Frontend:** Flutter, Dart, Google Fonts
-*   **Backend as a Service:** Firebase (Firestore, Authentication, Storage)
-*   **UI/UX Design:** Figma
-
-## 📂 Project Structure Highlights
-*   `lib/screens/`: Contains all UI views including Authentication, Cart, Payment, and Seller Dashboard.
-*   `lib/services/`: Core logic for `FirestoreService` handling CRUD operations for products, orders, and chats.
+## 💻 Tech Stack Implementation
+*   **Frontend:** Flutter SDK, Dart, Material Design UI.
+*   **Backend as a Service (BaaS):** Firebase (Authentication, Cloud Firestore for NoSQL database, Firebase Storage for image assets).
