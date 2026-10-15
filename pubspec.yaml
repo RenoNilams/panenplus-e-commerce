@@ -1,0 +1,43 @@
+name: panenplus
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9 # <--- TAMBAHKAN ATAU PERBARUI BARIS INI
+  firebase_storage: ^12.4.7 # <--- TAMBAHKAN INI (untuk mengunggah gambar)
+  image_picker: ^1.1.2
+  google_fonts: ^6.2.1
+  cloudinary_public: ^0.23.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/google.png
+    - assets/facebook.png
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/beras.png
+    - assets/jagung.png
+    - assets/kentang.png
+    - assets/pakcoy.png
+    - assets/tomat.png
+    - assets/wortel.png
+
+
